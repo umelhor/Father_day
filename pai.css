@@ -32,3 +32,44 @@ p {
     margin-bottom: 20px;
     font-family: 'Georgia', serif; /* Mudança para uma fonte serifada */
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        background-size: 60%; /* Aumenta o tamanho da imagem de fundo em telas menores */
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        max-width: 90%; /* Aumenta a largura da container em telas menores */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Diminui o tamanho da fonte do título */
+    }
+
+    p {
+        font-size: 1em; /* Diminui o tamanho da fonte do texto */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: 80%; /* Aumenta ainda mais o tamanho da imagem de fundo em telas muito pequenas */
+        padding: 5px;
+    }
+
+    .container {
+        padding: 10px;
+        max-width: 100%; /* Container ocupa toda a largura em telas pequenas */
+    }
+
+    h1 {
+        font-size: 1.2em; /* Diminui ainda mais o tamanho da fonte do título */
+    }
+
+    p {
+        font-size: 0.9em; /* Diminui o tamanho da fonte do texto */
+    }
+}
