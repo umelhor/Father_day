@@ -36,7 +36,7 @@ p {
 /* Responsividade */
 @media (max-width: 768px) {
     body {
-        background-size: 60%; /* Aumenta o tamanho da imagem de fundo em telas menores */
+        background-size: 100%; /* Aumenta o tamanho da imagem de fundo em telas menores */
         padding: 10px;
     }
 
@@ -56,7 +56,7 @@ p {
 
 @media (max-width: 480px) {
     body {
-        background-size: 80%; /* Aumenta ainda mais o tamanho da imagem de fundo em telas muito pequenas */
+        background-size: 100%; /* Aumenta ainda mais o tamanho da imagem de fundo em telas muito pequenas */
         padding: 5px;
     }
 
